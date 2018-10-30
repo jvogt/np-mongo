@@ -1,6 +1,6 @@
 pkg_origin=jvogt
 pkg_name=np-mongodb
-pkg_version=3.6.4
+pkg_version=3.7.0
 pkg_description="Mongodb for National-Parks app"
 pkg_maintainer="echohack"
 pkg_license=('AGPL-3.0')
@@ -15,6 +15,7 @@ pkg_exposes=(port)
 
 do_build() {
   return 0
+
 }
 
 do_install() {
